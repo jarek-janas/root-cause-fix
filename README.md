@@ -118,6 +118,15 @@ can see a change. It looks for them:
 If it finds no build and test commands, it asks instead of guessing: a wrong
 invocation can report success while running no tests at all.
 
+## Works well with
+
+[`bug-report-review`](https://github.com/jarek-janas/bug-report-review): when a
+report is too thin to anchor the analysis, this skill offers a review of the
+report at its first stop, and `bug-report-review` names what is missing and
+drafts the questions for the reporter. When a report is fix-ready, it hands the
+established facts back, so the analysis starts from evidence. Each skill also
+works on its own.
+
 ## Files
 
 ```
